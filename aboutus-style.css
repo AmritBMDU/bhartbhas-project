@@ -544,4 +544,10 @@ padding: 0px  0px 0px 25px;
   }
  
 
-  
+  .links a{
+    padding-top: 8%;
+}
+.cont p{
+    font-family: "montserrat";
+    font-size: 1rem;
+}
