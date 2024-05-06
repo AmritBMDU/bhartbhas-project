@@ -278,7 +278,32 @@ span.breadcrumb-entryactive {
     }
   }
 
+  @media only screen and (min-width : 320px) and (max-width :767px ) {
 
+    .bg_cover{
+        width: 100%;
+        height: 360px;background-size: cover;
+    }
+    .mainheading{
+        font-size: 1.5rem;
+    }
+    .subheading{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .carousel-item{
+        flex-direction: row;
+        height: auto;
+    }
+    div.container-fluid-f{
+        margin-top: 120%;
+    }
+  }
+
+
+  .carousel-item{
+    height: auto;
+  }
   .section-title h2 {
     letter-spacing: -0.02em;
 }
@@ -629,7 +654,7 @@ a {
   .team-member img{
     margin-top: 30px;
     width: 200px;
-    height: 100px;
+    height: auto;
 
 }
 
@@ -972,10 +997,14 @@ button, input, optgroup, select, textarea {
     padding-top: 8%;
 }
 .cont p{
+ 
     font-family: "montserrat";
-    font-size: 1rem;
+    font-size:.9rem;
 }
-
-
-
-
+.cont i{
+    font-size:1rem;
+   
+}
+.container-fluid-f{
+    margin-top:10%;
+}

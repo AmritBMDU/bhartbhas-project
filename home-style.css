@@ -10,6 +10,7 @@ body {
     line-height: 29.6px;
     overflow-x: hidden;
 }
+
 .hero-wrapper-one {
     position: relative;
     z-index: 1;
@@ -392,6 +393,18 @@ h2 {
     content: "\f00c";
     color: white;
 }
+@media only screen and (min-width : 320px) and (max-width :767px ) {
+
+    .hero-content h1{
+        margin-left: 10%;
+    }
+    .hero-content p{
+        margin-left: 10%;
+    }
+
+
+
+}
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .container-fluid {
         padding-left: 15px;
@@ -519,7 +532,14 @@ h3{
     padding-top: 8%;
 }
 .cont p{
-    
+ 
     font-family: "montserrat";
-    font-size: 1rem;
+    font-size:.9rem;
+}
+.cont i{
+    font-size:1rem;
+   
+}
+.container-fluid-f{
+    margin-top:15%;
 }
